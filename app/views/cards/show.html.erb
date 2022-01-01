@@ -1,0 +1,8 @@
+A single card view
+
+<h1><%= @card.body%></h1>
+<ul>
+    <li><%= button_to "Destroy", card_path(@card),
+                  method: :delete,
+                  data: { confirm: "Are you sure?" } %></li>
+</ul>

@@ -1,0 +1,10 @@
+<h1> This will be the cards section listing all the available buzzwords </h1>
+<ul>
+  <% @cards.each do |card| %>
+    <li>
+     <%= link_to card.body, card %>
+    </li>
+  <% end %>
+</ul>
+
+<%= link_to "New Card", new_card_path %>
