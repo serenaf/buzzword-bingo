@@ -1,0 +1,9 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  marked: false
+  body: MyText
+
+two:
+  marked: false
+  body: MyText
